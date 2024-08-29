@@ -1,0 +1,45 @@
+/* Section 1 */
+.section1{
+    background-color: #1F2937;
+
+}
+.section1 h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.section1 .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section1 .headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.footer{
+    background-color: #1F2937;
+}
+
+/* Section 2 */
+.button{
+    background-color: #3882F6;
+}
+.section2 .headertext{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+/* Section 3 */
+.section3{
+    background-color: #E5E7EB;
+}
+.section3 .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+/* Section 4 */
+.section4{
+    background-color: #3882F6;
+}
