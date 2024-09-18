@@ -3,36 +3,58 @@
     <meta charset="utf-8">
     <title> Landing Page </title>
     <link rel="stylesheet" href="./styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
     <div class="section1">
-        <div class="headerlogo"> Header Logo</div>
-        <ul class="text">
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    <h1>This website is awesome</h1>
-    <p class="text">This website has some subtext that goes here under the main title. It's a smaller font
-        and the color is lower contrast
-    </p>
-    <button class="button"> Sign Up </button>
-    <img src="./images/pexels-photo-27496001.webp" alt="Image for landing page" >
-</div>
+        <div class="flex-container">
+            <div class="navbar">
+              <h2 class="headerlogotext">Header Logo</h2>
+                <nav>
+                  <ul class="headerlinktext">
+                    <li><a href="#">Header Link One</a></li>
+                    <li><a href="#">Header Link Two</a></li>
+                    <li><a href="#">Header Link Three</a></li>
+                  </ul>
+                </nav>
+            </div>
+        </div> 
+        <div class="container">
+            <article class="item item-1">
+                <h1 class="heromaintext">This website is awesome</h1>
+                <p class="herosecondarytext">This website has some subtext that goes here under the main title. It's a smaller font 
+                    and the color is lower contrast 
+                </p>
+                <button class="button"> Sign Up </button>
+            </article>
 
-
+            <article class="item item-2">
+                <img src="./images/guitar-8343666_1280.webp" alt="Image for landing page">
+            </article>
+        </div>
+    </div>
+        
 <div class="section2"> 
     <div class="headertext">Some Random information</div>
-    <img src="">
-    <div class="text"> this is some subtext under an illustration or image</div>
-    <img src="">
-    <div class="text"> this is some subtext under an illustration or image</div>
-    <img src="">
-    <div class="text"> this is some subtext under an illustration or image</div>
-    <img src="">
-    <div class="text"> this is some subtext under an illustration or image</div>
+    <div class="imageandtext">
+    <figure>
+        <img src="./images/coffee-8668442_960_720.jpg">
+        <figcaption>this is some subtext under an illustration or image</figcaption>
+    </figure>
+    <figure>
+        <img src="./images/flowers-9028101_1280.webp">
+        <figcaption>this is some subtext under an illustration or image</figcaption>
+    </figure>
+    <figure>
+        <img src="./images/sales-9028104_1280.webp">
+        <figcaption>this is some subtext under an illustration or image</figcaption>
+    </figure>
+    <figure>
+        <img src="./images/flowers-9032938_1280.webp">
+        <figcaption>this is some subtext under an illustration or image</figcaption>
+    </figure>
 </div>
-
+</div>
 
 <div class="section3">
     <div class="text"> This is an inspiring quote, or a testimonial from 

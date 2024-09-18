@@ -1,45 +1,140 @@
-/* Section 1 */
+*{
+    font-family: roboto;
+    padding: 0;
+    margin: 0;
+}
+/* Section 1 Style */
 .section1{
     background-color: #1F2937;
-
 }
-.section1 h1{
+.heromaintext{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
-.section1 .text{
+.herosecondarytext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.headerlinktext{
     font-size: 18px;
     color: #E5E7EB;
 }
-.section1 .headerlogo{
+.headerlogotext{
     font-size: 24px;
     color: #F9FAF8;
 }
-.footer{
-    background-color: #1F2937;
+
+/* Responsive Header Logo and Navigation bar */
+.flex-container {
+    font-size: 1.2rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.navbar ul {
+    display: flex;
+  }
+  .flex-container .navbar {
+    justify-content: space-between;
+  }
+  .navbar ul li {
+    list-style-type: none;
+  }
+  
+  .flex-container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+@media(max-width: 650px){
+    .flex-container .navbar{
+        flex-direction: column;
+    }
 }
 
-/* Section 2 */
-.button{
-    background-color: #3882F6;
+/* Columns: Website main text and image */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2rem;
+    
 }
-.section2 .headertext{
+@media (min-width: 1200px){
+    .container{
+        flex-direction: row;
+    }
+}
+
+.container > *{
+    flex: 1;
+}
+.item{
+    padding: 1rem;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 500px;
+  }
+/* ---------------------------------------- */
+.section2{
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 160px;
+
+}
+.imageandtext{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.headertext{
+    text-align: center;
+    margin: 40px;
     font-size: 36px;
-    color: #1f2937;
     font-weight: 900;
 }
+figure {
+    border-radius: 25px;
+    /* border: 2px solid #3882F6; */
+    width: 150px;
+    height: 150px;
+    margin: 20px; /* adjust as needed */
 
-/* Section 3 */
-.section3{
-    background-color: #E5E7EB;
 }
-.section3 .text{
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+figure figcaption {
+    text-align: center;
+    margin-top: 10px;
 }
-/* Section 4 */
-.section4{
-    background-color: #3882F6;
+.section2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 26px;
 }
+@media(max-width: 750px){
+    .section2 .imageandtext{
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+}
+
+
+
+
