@@ -5,9 +5,10 @@
 }
 /* Section 1 Style */
 .section1{
-    background-color: #1F2937;
-    padding-left: 150px;
-    padding-right: 150px;
+    background-color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
 .heromaintext{
     font-size: 48px;
@@ -17,6 +18,7 @@
 .herosecondarytext{
     font-size: 18px;
     color:#E5E7EB;
+    margin: 10px;
 }
 .headerlinktext{
     font-size: 18px;
@@ -25,6 +27,19 @@
 .headerlogotext{
     font-size: 24px;
     color: #F9FAF8;
+}
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+a:visited {
+    color: #E5E7EB;
+}
+a:hover {
+    color: #E5E7EB;
+}
+a:active {
+    color: #E5E7EB;
 }
 
 /* Responsive Header Logo and Navigation bar */
@@ -166,5 +181,80 @@ figure figcaption {
     }
     
 }
+@media (max-width:1200px) {
+    .section3{
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+      }
+    
+}
+/* --------------------------------------------- */
+.section4{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    justify-content: center;
+}
+.action{
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 900px;
+    height: 60px;  
+
+}
+.section4 .text1{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.section4 .text{
+    margin-right: 200px;
+}
+.signup1{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    border: 0;
+
+}
+.signup2{
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    width: 120px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-left: auto;
+
+}
+/* ----------------------------------- */
+footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.footerdiv{
+    align-items: center;
+}
+
+
 
 
